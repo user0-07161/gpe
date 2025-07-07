@@ -32,14 +32,16 @@ typedef enum
 
 struct cfg_options_s
 {
-	int show_all_group;
-	int auto_hide_group_labels;
-	int show_recent_apps;
-	int recent_apps_number;
-	int list_icon_size;
-	tab_view_style tab_view;
-	window_close_command on_window_close;
-	int use_windowtitle;
-} cfg_options;
+        int show_all_group;
+        int auto_hide_group_labels;
+        int show_recent_apps;
+        int recent_apps_number;
+        int list_icon_size;
+        tab_view_style tab_view;
+        window_close_command on_window_close;
+        int use_windowtitle;
+};
+
+extern struct cfg_options_s cfg_options;
 
 #endif
