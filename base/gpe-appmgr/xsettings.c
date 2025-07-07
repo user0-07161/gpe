@@ -25,6 +25,8 @@ extern void row_view_set_bg_colour (guint c);
 extern void row_view_set_background (gchar *c);
 extern void row_view_refresh_background (void);
 
+extern struct cfg_options;
+
 enum image_type
   {
     CENTERED,
