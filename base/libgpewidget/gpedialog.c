@@ -50,7 +50,7 @@ do_gpe_info_dialog (const char *text, gboolean block)
 
   w = gtk_message_dialog_new (NULL,
 			      block ? GTK_DIALOG_MODAL : 0,
-			      GTK_MESSAGE_INFO, GTK_BUTTONS_OK, text);
+			      GTK_MESSAGE_INFO, GTK_BUTTONS_OK, "%s", text);
 
   if (block)
     {
