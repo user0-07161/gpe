@@ -80,6 +80,7 @@ time_t last_update=0;
 
 GdkPixbuf *default_pixbuf;
 
+struct cfg_options_s cfg_options;
 struct package_group *other_group;
 
 struct gpe_icon my_icons[] = {
