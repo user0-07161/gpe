@@ -61,6 +61,8 @@
 GtkWidget *bin;
 GtkWidget *table;
 
+extern struct cfg_options;
+
 static void
 run_callback (GObject *obj, GdkEventButton *ev, GnomeDesktopFile *p)
 {
