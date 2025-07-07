@@ -90,6 +90,8 @@ static GSList *rows, *labels;
 
 GdkGC *bg_gc;
 
+extern struct cfg_options;
+
 void
 row_view_set_bg_colour (guint c)
 {
