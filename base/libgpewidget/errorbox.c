@@ -53,7 +53,7 @@ do_gpe_error_box (const char *text, gboolean block)
 			      block ? GTK_DIALOG_MODAL : 0,
 			      GTK_MESSAGE_ERROR,
 			      GTK_BUTTONS_OK,
-			      text);
+			      "%s", text);
 
   if (block)
     {
