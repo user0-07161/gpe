@@ -43,6 +43,8 @@
 
 #define MASK_NUMLOCK GDK_MOD2_MASK
 
+struct s_current_status current_status;
+
 int main (int argc, char *argv[])
 {
 	GtkWidget 		*main_window;
