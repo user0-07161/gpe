@@ -1281,7 +1281,7 @@ gnome_desktop_file_get_strings (GnomeDesktopFile   *df,
   if (!gnome_desktop_file_get_raw (df, section, keyname, locale, &raw))
     return FALSE;
 
-  retval = g_strsplit (raw, ";", G_MAXINT);
+  retval = g_strsplit (raw, ";", 200);
 
   i = 0;
   while (retval[i])
