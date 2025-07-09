@@ -32,7 +32,6 @@ gpe-appmgr: $(OBJS)
 
 install-program: all
 	$(INSTALL) -D gpe-appmgr $(DESTDIR)/$(BINDIR)/gpe-appmgr
-	$(STRIP) $(DESTDIR)/$(BINDIR)/gpe-appmgr
 	mkdir -p $(DESTDIR)/$(PREFIX)/share/pixmaps
 	$(INSTALL) -D dist/usr/share/pixmaps/*.png  $(DESTDIR)/$(PREFIX)/share/pixmaps
 
