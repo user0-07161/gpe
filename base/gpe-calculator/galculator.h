@@ -41,7 +41,7 @@ typedef struct {
 	unsigned char	fmod:2;
 } s_current_status;
 
-s_current_status current_status;
+extern s_current_status current_status;
 
 typedef struct {
 	char		*button_label;
