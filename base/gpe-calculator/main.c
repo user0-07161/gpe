@@ -43,7 +43,8 @@
 
 #define MASK_NUMLOCK GDK_MOD2_MASK
 
-struct s_current_status current_status;
+s_current_status current_status;
+gboolean calc_entry_start_new;
 
 int main (int argc, char *argv[])
 {
