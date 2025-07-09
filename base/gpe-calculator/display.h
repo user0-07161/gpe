@@ -36,4 +36,4 @@ void display_append_e ();
 void display_result_toggle_sign ();
 void display_result_backspace ();
 
-gboolean calc_entry_start_new;
+extern gboolean calc_entry_start_new;
