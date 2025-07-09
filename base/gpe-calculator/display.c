@@ -36,6 +36,8 @@ static GtkTextMark 		*mark_result_start, *mark_result_end;
 
 static int display_result_counter = 0;
 
+extern gboolean calc_entry_start_new;
+
 /*
  * display_init. 
  */
