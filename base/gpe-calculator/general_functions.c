@@ -29,6 +29,7 @@
 
 #include "support.h"
 
+extern gboolean calc_entry_start_new;
 GtkStatusbar 	*statusbar;
 double			memory_value=0;
 
