@@ -40,6 +40,8 @@
 #include "interface.h"
 #include "support.h"
 
+extern s_current_status current_status;
+
 s_function_list function_list[] = {\
 	{"sin", {sin, asin, sinh, sin}},\
 	{"cos", {cos, acos, cosh, cos}},\
